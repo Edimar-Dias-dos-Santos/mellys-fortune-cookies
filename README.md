@@ -19,7 +19,7 @@ A romantic web app that reveals random Bible verses through a fortune cookie exp
 
 ## 💡 How to use
 
-1. Open the app
+1. Open the app  https://edimar-dias-dos-santos.github.io/mellys-fortune-cookies
 2. Tap the cookie
 3. Receive a blessing ✨
 
