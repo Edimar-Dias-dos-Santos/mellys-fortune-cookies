@@ -25,5 +25,3 @@ A romantic web app that reveals random Bible verses through a fortune cookie exp
 
 ## ❤️ Dedication
 This project is a small tribute to my wife, Melly.
-
-This project is a small tribute to my wife, Melly.
