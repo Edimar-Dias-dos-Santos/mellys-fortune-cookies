@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7dcb4" />
+  <meta name="description" content="Melly's Fortune Cookies - a loving tribute with random Bible verses." />
+  <title>Melly's Fortune Cookies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <p class="eyebrow">A loving tribute</p>
+      <h1>Melly’s Fortune Cookies</h1>
+      <p class="subtitle">
+        Tap the cookie and receive a random Bible verse.
+      </p>
+      <p class="dedication">Made with love for Melly ❤️</p>
+
+      <div class="cookie-stage">
+        <button class="cookie" id="cookie" aria-label="Open the fortune cookie" type="button">
+          <span class="cookie-left"></span>
+          <span class="cookie-right"></span>
+          <span class="paper" id="paper">A blessing is waiting for you...</span>
+        </button>
+      </div>
+
+      <section class="message-box" aria-live="polite">
+        <h2>Your verse</h2>
+        <p id="verseText">Tap the cookie to reveal a Bible verse.</p>
+        <button id="newVerseBtn" class="secondary-btn" type="button">
+          Open another cookie
+        </button>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
